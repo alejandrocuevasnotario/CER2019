@@ -1,0 +1,23 @@
+{% extends "layout.html" %}
+         {% block content %}
+         <div class="jumbo">
+	    <h2>DJIA APP<h2>
+	    <h3>Bienvenido a la APP<h3>
+	    <h4>El valor actual del mercado es:              {{titulo}}<h4>
+	  </div>
+          <hr>
+		<p align="center" > <I> Fecha y hora --> {{fecha}} {{hora}} </I> </p>
+		<div id="bloque2">
+		</div>
+		<hr>
+         <hr>
+		<p align="center" > <I> Se puede  acceder a los servicios de graficos que tienen las bases de datos Thingspeak </I> </p>
+		<div id="bloque3">
+		<p align="center" > <a class="vinculo" href="https://thingspeak.com/channels/933069/charts/1?bgcolor=%23ffffff&color=%23d62020&dynamic=true&results=20&type=line">Graficas externas</a>
+		</div>
+		<hr>
+	{% endblock %}
+
+
+  
+

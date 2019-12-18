@@ -1,0 +1,17 @@
+{% extends "layout.html" %}
+         {% block content %}
+         	
+	 <div class="jumbo">
+		<hr>
+		<div id="bloque">
+		<form method="POST" action="">
+		<p align="center" > <I> Introduce el umbral deseado </I> </p>
+		<p align="center" > Valor Umbral: <input type="text" name="dato"/> <br />
+		<p align="center" > <input type="submit" name= "intr" value="Enviar" /><br /></form>
+		</div>
+                <h4> {{valor}}<h4>
+                <h4> El umbral introducido a superar es:   {{umbrale}}<h4>
+                <h4> El número de valores mostrados es:   {{bandera}}<h4>
+	{% endblock %}
+
+
